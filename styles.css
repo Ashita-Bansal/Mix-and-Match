@@ -1,0 +1,36 @@
+@font-face {
+    font-family:"Creepy" ;
+    src: url(Assets/Fonts/Creepy.woff) format("woff"), url(Assets/Fonts/Creepy.woff2) format("woff2");
+}
+@font-face {
+    font-family:"Lunacy" ;
+    src: url(Assets/Fonts/Lunacy.woff) format("woff"), url(Assets/Fonts/Lunacy.woff2) format("woff2");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    min-height: 100vh;
+}
+
+body{
+    margin:0;
+    background: radial-gradient(#9D5900,#3D2200);
+
+}
+
+.page-title{
+    font-size: 6em;
+    font-family: Creepy,serif;
+    color:#FF6D00;
+    font-weight: normal;
+    text-align: center;
+}
+
+.game-info{
+    font-family: Lunacy,serif;
+    font-size: 4em;
+    color:#FFBB89;
+}
